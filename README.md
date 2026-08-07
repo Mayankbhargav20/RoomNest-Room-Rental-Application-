@@ -103,6 +103,6 @@ flutter run
 
 ## 👨‍💻 Author
 
-**May**
+**Mayank Bhargav**
 
 B.Tech Computer Science Student | Java Full Stack Developer | Flutter Developer
