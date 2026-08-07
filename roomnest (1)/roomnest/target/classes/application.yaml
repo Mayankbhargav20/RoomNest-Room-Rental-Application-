@@ -1,0 +1,24 @@
+spring:
+  application:
+    name: roomnest
+  datasource:
+    url: jdbc:mysql://localhost:3306/roomnest
+    username: root
+    password: Mayank20
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: true
+        dialect: org.hibernate.dialect.MySQLDialect
+
+  sql:
+    init:
+      mode: never
+
+server:
+  port: 8080
